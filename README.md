@@ -1,4 +1,4 @@
-# Basic JavaScript Calculator
+# [Basic JavaScript Calculator](https://stephanlamoureux.github.io/calc/)
 
 A project from the Frontend Masters Bootcamp
 
