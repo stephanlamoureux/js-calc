@@ -1,6 +1,6 @@
 # [Basic JavaScript Calculator](https://stephanlamoureux.github.io/calc/)
 
-![calc](https://github.com/stephanlamoureux/calc/blob/master/images/calc.png)
+![calc](https://github.com/stephanlamoureux/calc/blob/master/images/calculator.jpg)
 
 ## Working Example
 
