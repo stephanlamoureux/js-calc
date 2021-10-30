@@ -86,7 +86,7 @@ function handleNumber(numberString) {
 }
 
 function init() {
-    document.querySelector(".calc-buttons")
+    document.querySelector(".buttons-container")
         .addEventListener("click", function (event) {
             buttonClick(event.target.innerText);
         });

@@ -11,6 +11,8 @@ html {
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Helvetica Neue', helvetica, monospace;
+    background: #e7e7e7;
 }
 
 .flex {
@@ -18,19 +20,26 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin: 100px 0;
 }
-.wrapper {
-    width: 400px;
+
+.calculator {
+    width: 450px;
+    height: 775px;
     background-color: black;
     color: white;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0px 2px 10px 2px #023E8A;
 }
 
 .screen {
     text-align: right;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 20px 5px;
-    font-size: 40px;
+    font-size: 100px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 125px;
 }
 
 .calc-button-row {
@@ -44,9 +53,11 @@ body {
     background-color: #d8d9db;
     color: black;
     border: none;
-    font-size: 40px;
+    font-size: 45px;
     height: 100px;
-    flex-basis: 24.5%
+    flex-basis: 24.5%;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 .calc-button:hover {
@@ -58,22 +69,24 @@ body {
 }
 
 .calc-button:last-child {
-    background-color: #df974c;
+    background-color: #00B4D8;
     color: white;
 }
 
 .calc-button:last-child:hover {
-    background-color: #dfb07e;
+    background-color: #90E0EF;
 }
 
 .calc-button:last-child:active {
-    background-color: #dd8d37;
+    background-color: #0096C7;
 }
 
 .double {
-    flex-basis: 49.7%;
+    flex-basis: 52%;
+    border-radius: 5px;
 }
 
 .triple {
-    flex-basis: 74.8%;
+    flex-basis: 81%;
+    border-radius: 5px;
 }
