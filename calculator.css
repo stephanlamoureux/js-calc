@@ -111,11 +111,13 @@ body {
     border-radius: 5px;
 }
 
-@media screen and (max-device-width: 475px) {
-    .flex {
-       height: 80vh;
+@media screen and (max-width: 666px) {
+    .calc-header {
+        font-size: 55px;
     }
+}
 
+@media screen and (max-width: 475px) {
     .calculator {
         width: 300px;
         height: 525px;
