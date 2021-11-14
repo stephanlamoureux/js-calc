@@ -117,30 +117,32 @@ body {
     }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-device-width: 850px) {
     .calculator {
-        width: 300px;
-        height: 525px;
+        width: 750px;
+        height: 1250px;
     }
 
     .calc-header {
-        font-size: 40px;
+        font-size: 80px;
     }
 
     .calc-button {
-        font-size: 30px;
-        height: 50px;
+        font-size: 50px;
+        height: 175px;
+        font-weight: bold;
     }
 
     .screen {
-        height: 100px;
-        font-size: 70px;
+        height: 150px;
+        font-size: 150px;
+        margin-bottom: 50px;
     }
 
     .double {
-        flex-basis: 55%;
+        flex-basis: 52%;
     }
     .triple {
-        flex-basis: 86%;
+        flex-basis: 80%;
     }
 }
